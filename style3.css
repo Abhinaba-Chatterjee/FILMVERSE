@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+}
+.head a{
+    position:absolute;
+    top: 4px;
+    left:730px;
+    font-size: 25px;
+    color:rgb(12, 12, 12);
+    font-style: italic;
+    text-decoration: none;
+    font-weight: bold;
+}
+.first{
+    padding-top: 170px;
+    padding-right: 50px;
+    position: absolute;
+    color: black;
+    font-size: 35px;
+}
+.ao{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+.bo{
+    font-style: oblique;
+    font-family: serif;
+    font-size: 38px;
+}
+.co{
+    font-family:sans-serif;
+}
+.eo{
+    font-family: sans-serif;
+}
+.last{
+    position: absolute;
+    bottom: 10px;
+    right:710px;
+    background-color: black;
+    color: white;
+}
